@@ -72,3 +72,31 @@ python -m pip install --upgrade pip
 - Hello, Pybo!를 출력해 주는 앱
 
 `__name__`이라는 변수에는 모듈명이 담긴다.
+
+## 2장 플라스크 개발 기초 공사!
+- 블루프린트를 이용해 라우트 함수를 관리한다.
+- 플라스크 ORM을 이용해 데이터베이스를 제어한다.
+- 파이보 게시판에 질문 목록과 상세 조회 기능을 만든다.
+
+### 플라스크 기초 다지기
+- 규모 있는 프로젝트를 위한 프로젝트 구조 설계
+
+```
+├── pybo/
+│      ├─ __init__.py
+│      ├─ models.py
+│      ├─ forms.py
+│      ├─ views/
+│      │   └─ main_views.py
+│      ├─ static/
+│      │   └─ style.css
+│      └─ templates/
+│            └─ index.html
+└── config.py
+```
+- models는 데이터베이스를 처리 한다.
+- forms는 서버로 전송된 폼을 처리 한다.
+- views는 화면을 구성한다.
+- static는 정적 파일을 저장한다 (css, js, image)
+- templates는 html 파일을 저장한다.
+- config.py는 프로젝트를 설정한다.
