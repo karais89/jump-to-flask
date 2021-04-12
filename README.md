@@ -103,3 +103,17 @@ python -m pip install --upgrade pip
 
 ### 플라스크 애플리케이션 팩토리
 - 플라스크 공식 홈페이지에서 애플리케이션 팩토리를 사용하라고 권고
+
+요기서 pylint 때문에 hello_pybo는 사용하지 않는 함수라고 경고를 띄운다.
+이 부분을 유닛 테스트를 추가하면 경고를 없애는 것이 가능할 것으로 보이는데 한번 테스트를 해봐야 될 것 같다.
+
+### 유닛 테스트
+```sh
+pip install pytest
+```
+- vscode Python Test Explorer for Visual Studio Code 설치
+
+- settings.json에 아래 설정 추가
+```json
+"python.testing.pytestEnabled": true,
+```
