@@ -100,3 +100,6 @@ python -m pip install --upgrade pip
 - static는 정적 파일을 저장한다 (css, js, image)
 - templates는 html 파일을 저장한다.
 - config.py는 프로젝트를 설정한다.
+
+### 플라스크 애플리케이션 팩토리
+- 플라스크 공식 홈페이지에서 애플리케이션 팩토리를 사용하라고 권고
