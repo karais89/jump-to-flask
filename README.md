@@ -117,3 +117,8 @@ pip install pytest
 ```json
 "python.testing.pytestEnabled": true,
 ```
+
+### 블루프린트로 라우트 함수 관리하기
+- create_app 함수 안에 hello_pybo 함수가 들어 있는 형태.
+- api 추가 시 create_app 함수 안에 계속해서 함수를 만들어 줘야 하는 불편함이 있음.
+- 블루프린트를 사용하면 함수를 구조적을 관리할 수 있다.

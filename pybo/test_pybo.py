@@ -22,5 +22,5 @@ def teardown_function():
 
 
 def test_hello_pybo(api):
-    resp = api.get("/")
+    resp = api.get("/hello")
     assert b"Hello, Pybo!" in resp.data
