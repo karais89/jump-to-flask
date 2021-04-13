@@ -17,3 +17,10 @@ class Answer(db.Model):
     question = db.relationship("Question", backref=db.backref("answer_set"))
     content = db.Column(db.Text(), nullable=False)
     create_date = db.Column(db.DateTime(), nullable=False)
+
+
+class TestModel(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    sno = db.Column(db.String(200), primary_key=True)
+    version = db.Column(db.Integer, primary_key=True)
+    create_date = db.Column(db.DateTime(), nullable=False)
